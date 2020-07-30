@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazored.LocalStorage.Concurrent", "Blazored.LocalStorage.Concurrent\Blazored.LocalStorage.Concurrent.csproj", "{D44CFB81-C958-4A52-9BF9-773F86F876CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch1seL.Blazored.LocalStorage.Concurrent", "ch1seL.Blazored.LocalStorage.Concurrent\ch1seL.Blazored.LocalStorage.Concurrent.csproj", "{D44CFB81-C958-4A52-9BF9-773F86F876CE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch1seL.Blazored.LocalStorage.Concurrent.UnitTests", "ch1seL.Blazored.LocalStorage.Concurrent.UnitTests\ch1seL.Blazored.LocalStorage.Concurrent.UnitTests.csproj", "{DB9BD721-7517-471A-B1F8-3797DB4C5C12}"
 EndProject

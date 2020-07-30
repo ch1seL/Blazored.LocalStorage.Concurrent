@@ -26,7 +26,7 @@ jobs:
     - name: Publish NuGet
       uses: brandedoutcast/publish-nuget@v2.5.5
       with:
-        PROJECT_FILE_PATH: Blazored.LocalStorage.Concurrent/Blazored.LocalStorage.Concurrent.csproj
+        PROJECT_FILE_PATH: ch1seL.Blazored.LocalStorage.Concurrent/ch1seL.Blazored.LocalStorage.Concurrent.csproj
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
         VERSION_REGEX: ^\s*<PackageVersion>(.*)<\/PackageVersion>\s*$
       

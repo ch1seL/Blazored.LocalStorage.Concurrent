@@ -16,7 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Blazored.LocalStorage.Concurrent\Blazored.LocalStorage.Concurrent.csproj" />
+      <ProjectReference Include="..\ch1seL.Blazored.LocalStorage.Concurrent\ch1seL.Blazored.LocalStorage.Concurrent.csproj" />
     </ItemGroup>
 
 </Project>
