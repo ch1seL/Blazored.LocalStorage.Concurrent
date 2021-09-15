@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
         <RootNamespace>ch1seL.Blazored.LocalStorage.Concurrent</RootNamespace>
-        <PackageVersion>0.0.3</PackageVersion>
+        <PackageVersion>0.0.4</PackageVersion>
         <Authors>ch1seL</Authors>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>ch1seL.Blazored.LocalStorage.Concurrent</PackageId>
@@ -13,11 +13,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="..\LICENSE" Pack="true" PackagePath=""/>
+        <None Include="..\LICENSE" Pack="true" PackagePath="" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Blazored.LocalStorage" Version="3.0.0" />
+      <PackageReference Include="Blazored.LocalStorage" Version="4.1.5" />
     </ItemGroup>
 
 </Project>

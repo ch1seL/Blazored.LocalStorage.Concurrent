@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 using Blazored.LocalStorage;
 using Moq;
@@ -17,7 +18,7 @@ namespace ch1seL.Blazored.LocalStorage.Concurrent.UnitTests
 
             await storage.EmptyRequest();
 
-            localStorageMock.Verify(s => s.GetItemAsync<List<string>>(It.Is<string>(k => k == expectedKeyName)));
+            localStorageMock.Verify(s => s.GetItemAsync<List<string>>(It.Is<string>(k => k == expectedKeyName), It.IsAny<CancellationToken?>()));
         }
 
         private class TestStorage<T> : ConcurrentEntityStorageBase<List<T>>
